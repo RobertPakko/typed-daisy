@@ -1,5 +1,5 @@
 export const DaisyComponents = {
-  "prose": {},
+  //// ACTIONS ///////////////////
   "btn": {
     primary: "btn-primary",
     secondary: "btn-secondary",
@@ -25,6 +25,101 @@ export const DaisyComponents = {
     circle: "btn-circle",
     square: "btn-square"
   },
+  "dropdown": {
+    alignEnd: "dropdown-end",
+    openTop: "dropdown-top",
+    openBottom: "dropdown-bottom",
+    openLeft: "dropdown-left",
+    openRight: "dropdown-right",
+    hover: "dropdown-hover",
+    forceOpen: "dropdown-open"
+  },
+  "dropdown-content": {},
+  "modal": {
+    open: "modal-open",
+    bottom: "modal-bottom",
+    middle: "modal-middle"
+  },
+  "modal-box": {},
+  "modal-action": {},
+  "modal-toggle": {},
+  "swap": {
+    active: "swap-active",
+    rotate: "swap-rotate",
+    flip: "swap-flip"
+  },
+  "swap-on": {},
+  "swap-off": {},
+  "swap-indeterminate": {},
+  //// DATA DISPLAY ///////////////////
+  "alert": {
+    info: "alert-info",
+    success: "alert-success",
+    warning: "alert-warning",
+    error: "alert-error"
+  },
+  "avatar": {
+    online: "online",
+    offline: "offline",
+    placeholder: "placeholder"
+  },
+  "avatar-group": {},
+  "badge": {
+    outline: "badge-outline",
+    primary: "badge-primary",
+    secondary: "badge-secondary",
+    accent: "badge-accent",
+    ghost: "badge-ghost",
+    info: "badge-info",
+    success: "badge-success",
+    warning: "badge-warning",
+    error: "badge-error",
+    large: "badge-lg",
+    medium: "badge-md",
+    small: "badge-sm",
+    extraSmall: "badge-xs"
+  },
+  "card": {
+    bordered: "card-bordered",
+    imageFull: "image-full",
+    normal: "card-normal",
+    compact: "card-compact",
+    side: "card-side"
+  },
+  "card-title": {},
+  "card-body": {},
+  "card-actions": {},
+  "carousel": {
+    center: "carousel-center",
+    end: "carousel-end",
+    vertical: "carousel-vertical"
+  },
+  "carousel-item": {},
+  "chat": {
+    start: "chat-start",
+    end: "chat-end"
+  },
+  "chat-image": {},
+  "chat-header": {},
+  "chat-footer": {},
+  "chat-bubble": {
+    primary: "chat-bubble-primary",
+    secondary: "chat-bubble-secondary",
+    accent: "chat-bubble-accent",
+    info: "chat-bubble-info",
+    success: "chat-bubble-success",
+    warning: "chat-bubble-warning",
+    error: "chat-bubble-error"
+  },
+  /* TODO */
+  //// DATA INPUT ///////////////////
+  /* TODO */
+  //// LAYOUT ///////////////////
+  /* TODO */
+  //// NAVIGATION ///////////////////
+  /* TODO */
+  //// MISC ///////////////////
+  "prose": {},
   "form-control": {},
   "input": {
     bordered: "input-bordered",
@@ -41,16 +136,6 @@ export const DaisyComponents = {
     small: "input-sm",
     extraSmall: "input-xs"
   },
-  "dropdown": {
-    alignEnd: "dropdown-end",
-    openTop: "dropdown-top",
-    openBottom: "dropdown-bottom",
-    openLeft: "dropdown-left",
-    openRight: "dropdown-right",
-    hover: "dropdown-hover",
-    forceOpen: "dropdown-open"
-  },
-  "dropdown-content": {},
   "checkbox": {
     primary: "checkbox-primary",
     secondary: "checkbox-secondary",
@@ -98,16 +183,6 @@ export const DaisyComponents = {
     cursorPointer: "cursor-pointer"
   },
   "label-text": {},
-  "card": {
-    bordered: "card-bordered",
-    imageFull: "image-full",
-    normal: "card-normal",
-    compact: "card-compact",
-    side: "card-side"
-  },
-  "card-title": {},
-  "card-body": {},
-  "card-actions": {},
   "divider": {},
   "hero": {},
   "hero-content": {},
@@ -133,21 +208,6 @@ export const DaisyComponents = {
     bordered: "bordered",
     hoverBordered: "hover-bordered"
   },
-  "badge": {
-    outline: "badge-outline",
-    primary: "badge-primary",
-    secondary: "badge-secondary",
-    accent: "badge-accent",
-    ghost: "badge-ghost",
-    info: "badge-info",
-    success: "badge-success",
-    warning: "badge-warning",
-    error: "badge-error",
-    large: "badge-lg",
-    medium: "badge-md",
-    small: "badge-sm",
-    extraSmall: "badge-xs"
-  },
   "toast": {
     start: "toast-start",
     center: "toast-center",
@@ -156,18 +216,6 @@ export const DaisyComponents = {
     middle: "toast-middle",
     bottom: "toast-bottom"
   },
-  "alert": {
-    info: "alert-info",
-    success: "alert-success",
-    warning: "alert-warning",
-    error: "alert-error"
-  },
-  "avatar": {
-    online: "online",
-    offline: "offline",
-    placeholder: "placeholder"
-  },
-  "avatar-group": {},
   "mask": {
     squircle: "mask-squircle"
   },

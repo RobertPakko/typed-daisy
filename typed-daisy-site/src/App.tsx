@@ -1,8 +1,6 @@
 import { Component } from "solid-js";
 import { wind } from "tailwindest";
-import { daisy } from "./../../typed-daisy-package/daisy-component";
-import { daisyTheme } from "../../typed-daisy-package/daisy-theme";
-import { daisyColor } from "../../typed-daisy-package/daisy-color";
+import { daisy, daisyColor, daisyTheme } from "typed-daisy";
 
 const App: Component = () => {
   return (

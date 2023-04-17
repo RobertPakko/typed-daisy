@@ -1,0 +1,31 @@
+{
+  "name": "typed-daisy",
+  "version": "0.0.1-alpha.2",
+  "description": "A collection of utility functions for writing UIs in a typesafe way",
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertPakko/typed-daisy.git"
+  },
+  "keywords": [
+    "daisy",
+    "tailwind"
+  ],
+  "author": "Robert Pakko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobertPakko/typed-daisy/issues"
+  },
+  "homepage": "https://github.com/RobertPakko/typed-daisy#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

@@ -1,4 +1,4 @@
-import { DaisyComponents } from "./component-types";
+import { DaisyComponents } from "./component-const";
 
 type DaisyKeys<T> = T extends keyof typeof DaisyComponents ? keyof typeof DaisyComponents[T] : never;
 
